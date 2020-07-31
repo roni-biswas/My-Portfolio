@@ -85,6 +85,9 @@
     }
 }
 @media (min-width: 460px) and (max-width: 575px){
+    #menuSection .logo img {
+        width: 180px;
+    }
     #headerSection .header {
         display: flex;
         flex-direction: column;
@@ -129,6 +132,9 @@
     }
 }
 @media (min-width: 386px) and (max-width: 459px){
+    #menuSection .logo img {
+        width: 150px;
+    }
     #headerSection .header h1{
         font-size: 45px;
     }
@@ -188,6 +194,9 @@
     }
 }
 @media (max-width: 385px){
+    #menuSection .logo img {
+        width: 150px;
+    }
     #headerSection .header h1{
         font-size: 44px;
     }
@@ -226,7 +235,7 @@
         display: none;
     }
     .images .box img{
-        right: 20px;
+        right: 35px;
     }
     #counterupSection .counterUp{
         margin-bottom: 20px;
