@@ -489,6 +489,7 @@ td {
 #protfolioSection{
 	padding: 95px 0;
 	background: #f6f6f6;
+	overflow: hidden;
 }
 .card-img, .card-img-bottom, .card-img-top {
     padding: 3px;
