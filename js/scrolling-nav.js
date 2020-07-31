@@ -8,7 +8,7 @@ $(window).scroll(function(){
 });
 //jQuery for page scroll-to-top
 $(window).scroll(function(){
-    if($(this).scrollTop() > 100){
+    if($(this).scrollTop() > 200){
         $(".scrollUp").fadeIn();
     }else{
         $(".scrollUp").fadeOut();
