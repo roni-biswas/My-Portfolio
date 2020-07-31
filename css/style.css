@@ -530,6 +530,7 @@ ul.filters li a{
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 30px;
+	display: block;
 }
 .cardOverlay{
 	position: absolute;
