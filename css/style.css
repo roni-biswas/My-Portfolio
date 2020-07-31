@@ -667,6 +667,7 @@ ul.cardLink li a{
 	background-size: cover;
 	background-position: center;
 	position: relative;
+	display: block;
 }
 #hireSection::before {
     content: "";
