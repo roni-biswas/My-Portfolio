@@ -532,6 +532,8 @@ ul.filters li a{
 	overflow: hidden;
 	margin-bottom: 30px;
 	display: block;
+	max-width: 340px;
+	max-height: 274px;
 }
 .cardOverlay{
 	position: absolute;
