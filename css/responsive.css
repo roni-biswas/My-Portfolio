@@ -83,6 +83,9 @@
     #contactSection .contactSec{
         margin-bottom: 20px;
     }
+    #protfolioSection .project{
+        display: inline-block;
+    }
 }
 @media (min-width: 460px) and (max-width: 575px){
     #menuSection .logo img {
@@ -129,6 +132,9 @@
     }
     #contactSection .contactSec{
         margin-bottom: 20px;
+    }
+    #protfolioSection .project{
+        display: inline-block;
     }
 }
 @media (min-width: 386px) and (max-width: 459px){
@@ -192,6 +198,9 @@
     #contactSection .contactSec{
         margin-bottom: 20px;
     }
+    #protfolioSection .project{
+        display: inline-block;
+    }
 }
 @media (max-width: 385px){
     #menuSection .logo img {
@@ -254,5 +263,8 @@
     }
     #contactSection .contactSec{
         margin-bottom: 20px;
+    }
+    #protfolioSection .project{
+        display: inline-block;
     }
 }
