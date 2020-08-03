@@ -527,13 +527,11 @@ ul.filters li a{
 .projectSec{
 	margin-top: 40px;
 }
-.project{
+.card-header{
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 30px;
-	display: block;
-	max-width: 340px;
-	max-height: 274px;
+	padding: 0;
 }
 .cardOverlay{
 	position: absolute;
