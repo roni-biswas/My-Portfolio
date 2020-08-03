@@ -50,7 +50,7 @@ $(document).ready(function () {
         e.preventDefault();
     });
     //mouse hover
-    $(".project").mouseenter(function(){
+    $(".card-header").mouseenter(function(){
         $(this).find(".cardOverlay").css("top","0");
         $(this).find("ul.cardLink").css("top","0");
     }).mouseleave(function(){
@@ -61,7 +61,7 @@ $(document).ready(function () {
 
 //for protfolio Lightbox
 //Define UI constants
-const projectItem = document.querySelector(".project-item").children;
+const projectItem = document.querySelector(".project_item").children;
 const lightBoxContainer = document.querySelector(".lightBox");
 const lightBoxImg = document.querySelector(".lightBoxImg");
 const counter = document.querySelector(".lightBoxCunter");
