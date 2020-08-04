@@ -262,6 +262,10 @@ html,body{
 	max-width: 240px;
 	height: auto;
 }
+@Keyframes photoSlider{
+	from{transform:translateX(0px)}
+	to{transform:translateX(107px)}
+}
 table{
 	margin-top: 25px;
 }
@@ -486,53 +490,46 @@ td {
 	padding: 95px 0;
 	background: #f6f6f6;
 }
-/* ---- button ---- */
-
-.button {
-  display: inline-block;
-  padding: 0.5em 1.0em;
-  background: #fff;
-  border: none;
-  color: #222;
-  font-family: Mr;
-  text-transform: uppercase;
-  font-size: 14px;
-  cursor: pointer;
-  outline: none;
-  box-shadow: 0 0px 5px 0 #00000042;
+.card-img, .card-img-bottom, .card-img-top {
+    padding: 3px;
+    border: 1px solid #ff572252;
 }
-.button:active,
-.button.is-checked {
-  background-color: #ff5722;
+ul.filters{
+	margin: 0;
+	display: block;
 }
-
-.button.is-checked {
-  color: white;
+ul.filters li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px 20px;
+	background: #fff;
+	box-shadow: 0 0px 4px 0px #666;
+    max-width: 130px;
+	height: auto;
+	cursor: pointer;
+	margin: 0 5px;
 }
-.button-group {
-  margin-bottom: 20px;
+ul.filters li.active{
+	background: #ff5722;
 }
-
-.button-group .button {
-  border-radius: 0;
-  margin: 0 5px;
+ul.filters li.active a{
+	color: #fff;
 }
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
+ul.filters li a{
+	text-decoration: none;
+	color: #555;
+	text-transform: uppercase;
+	font-family: Mr;
+	font-size: 12px;
+	border-radius: 3px;
 }
-.element-item {
-  position: relative;
-  float: left;
-  color: #262524;
-  width: 33%;
-  border: 10px solid transparent;
-  overflow: hidden;
+.projectSec{
+	margin-top: 40px;
 }
-.element-item img{
-	width: 100%;
+.project{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
 }
 .cardOverlay{
 	position: absolute;
@@ -540,14 +537,20 @@ td {
 	height: 100%;
 	top: -100%;
 	left: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	background: rgba(0,0,0, .5);
 	transition: all .5s;
 }
 ul.cardLink{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
 	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all .5s;
 }
 ul.cardLink li{
 	list-style: none;
