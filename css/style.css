@@ -489,7 +489,7 @@ td {
 #protfolioSection{
 	padding: 95px 0;
 	background: #f6f6f6;
-	display: block;
+	overflow: hidden;
 }
 .card-img, .card-img-bottom, .card-img-top {
     padding: 3px;
@@ -505,7 +505,7 @@ ul.filters li{
 	padding: 5px 18px;
 	background: #fff;
 	box-shadow: 0 0px 4px 0px #666;
-    max-width: 125px;
+    	max-width: 125px;
 	height: auto;
 	cursor: pointer;
 	margin: 0 5px;
@@ -526,6 +526,7 @@ ul.filters li a{
 }
 .projectSec{
 	margin-top: 40px;
+	max-height: 100% !important;
 }
 .card-header{
 	position: relative;
