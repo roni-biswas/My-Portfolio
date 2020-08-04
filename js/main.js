@@ -29,3 +29,7 @@ $(document).ready(function () {
     $('#bar5').barfiller({ barColor: "#ff2511", duration: 2000 });
     $('#bar6').barfiller({ barColor: "#ff2511", duration: 2000 });
 });
+//for wow effect
+$(document).ready(function(){
+    new WOW().init();
+});
