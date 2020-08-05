@@ -30,8 +30,7 @@ $(document).ready(function () {
     $('#bar6').barfiller({ barColor: "#ff2511", duration: 2000 });
 });
 //for protfolio isotope
-(function(){
-    "use strict"
+$(window).on("load",function(){
     var $project = $(".projectSec");
 
     $project.isotope({
@@ -57,7 +56,7 @@ $(document).ready(function () {
         $(this).find(".cardOverlay").css("top","-100%");
         $(this).find("ul.cardLink").css("top","100%");
     });
-})(jQuery);
+});
 
 //for protfolio Lightbox
 //Define UI constants
