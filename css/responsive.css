@@ -139,6 +139,10 @@
     #protfolioSection .project{
         display: inline-block;
     }
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    font-size: 14px;
+    }
 }
 @media (min-width: 386px) and (max-width: 459px){
     #menuSection .logo img {
@@ -206,6 +210,10 @@
     }
     #protfolioSection .project{
         display: inline-block;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    font-size: 14px;
     }
 }
 @media (max-width: 385px){
@@ -275,5 +283,8 @@
     }
     #protfolioSection .project{
         display: inline-block;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
     }
 }
