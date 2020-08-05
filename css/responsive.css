@@ -91,6 +91,9 @@
     #menuSection .logo img {
         width: 180px;
     }
+    #menuSection .logo2 img {
+        width: 180px;
+    }
     #headerSection .header {
         display: flex;
         flex-direction: column;
@@ -139,6 +142,9 @@
 }
 @media (min-width: 386px) and (max-width: 459px){
     #menuSection .logo img {
+        width: 150px;
+    }
+    #menuSection .logo2 img {
         width: 150px;
     }
     #headerSection .header h1{
@@ -204,6 +210,9 @@
 }
 @media (max-width: 385px){
     #menuSection .logo img {
+        width: 150px;
+    }
+    #menuSection .logo2 img {
         width: 150px;
     }
     #headerSection .header h1{
