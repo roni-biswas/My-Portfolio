@@ -39,6 +39,15 @@
     #headerSection .headerImg img{
         max-width: 300px;
     }
+    .mainHeader .navbar-light .navbar-nav .nav-link {
+        color: #555;
+        font-size: 16px;
+        padding-left: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    .mainHeader .navbar-collapse{
+        background: #fff;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px){
     #headerSection .header {
@@ -83,8 +92,14 @@
     #contactSection .contactSec{
         margin-bottom: 20px;
     }
-    #protfolioSection .project{
-        display: inline-block;
+    .mainHeader .navbar-light .navbar-nav .nav-link {
+        color: #555;
+        font-size: 14px;
+        padding-left: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    .mainHeader .navbar-collapse{
+        background: #fff;
     }
 }
 @media (min-width: 460px) and (max-width: 575px){
@@ -136,12 +151,14 @@
     #contactSection .contactSec{
         margin-bottom: 20px;
     }
-    #protfolioSection .project{
-        display: inline-block;
+    .mainHeader .navbar-light .navbar-nav .nav-link {
+        color: #555;
+        font-size: 14px;
+        padding-left: 10px;
+        border-bottom: 1px solid #ddd;
     }
-    .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    font-size: 14px;
+    .mainHeader .navbar-collapse{
+        background: #fff;
     }
 }
 @media (min-width: 386px) and (max-width: 459px){
@@ -208,12 +225,14 @@
     #contactSection .contactSec{
         margin-bottom: 20px;
     }
-    #protfolioSection .project{
-        display: inline-block;
+    .mainHeader .navbar-light .navbar-nav .nav-link {
+        color: #555;
+        font-size: 14px;
+        padding-left: 10px;
+        border-bottom: 1px solid #ddd;
     }
-    .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    font-size: 14px;
+    .mainHeader .navbar-collapse{
+        background: #fff;
     }
 }
 @media (max-width: 385px){
@@ -281,10 +300,13 @@
     #contactSection .contactSec{
         margin-bottom: 20px;
     }
-    #protfolioSection .project{
-        display: inline-block;
+    .mainHeader .navbar-light .navbar-nav .nav-link {
+        color: #555;
+        font-size: 14px;
+        padding-left: 10px;
+        border-bottom: 1px solid #ddd;
     }
-    .navbar-expand-lg .navbar-nav .nav-link {
-    font-size: 14px;
+    .mainHeader .navbar-collapse{
+        background: #fff;
     }
 }
