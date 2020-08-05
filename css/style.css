@@ -31,6 +31,12 @@ html,body{
 	border-bottom: 3px solid #FF5722;
 	transition: all .5s;
 }
+.top-nav-collapse .logo img{
+	display: none;
+}
+.top-nav-collapse .logo2 img{
+	display: block;
+}
 .top-nav-collapse .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);
     border-color: rgba(0, 0, 0,0.5);
@@ -53,6 +59,7 @@ html,body{
 }
 .navbar-expand-lg .navbar-nav {
     text-transform: uppercase;
+	margin-top: 5px;
 }
 .navbar-light .navbar-nav .active > 
 .nav-link, .navbar-light 
@@ -81,7 +88,12 @@ html,body{
 /* End Menu Ber */
 /* Start header section */
 .logo img{
-	width: 200px;
+	width: 224px;
+}
+.logo2 img{
+	width: 224px;
+	display: none;
+	transition: all .5s;
 }
 #headerSection{
 	padding-top: 200px;
