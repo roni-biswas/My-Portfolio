@@ -268,10 +268,8 @@ html,body{
 .box img{
 	position: absolute;
 	bottom: 0;
-	right: 50px;
-	padding: 4px;
-	border: 1px solid #ddd;
-	max-width: 240px;
+	right: 0px;
+	max-width: 300px;
 	height: auto;
 }
 table{
