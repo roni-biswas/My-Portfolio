@@ -23,6 +23,9 @@
         width: 300px;
         height: 350px;
     }
+    .images .box img{
+        max-width: 270px;
+    }
     .images .box::after{
         width: 322px;
         height: 362px;
@@ -71,6 +74,9 @@
     }
     .images .box{
         width: 60%;
+    }
+    .images .box img{
+        max-width: 270px;
     }
     .images .box::after{
         width: 327px;
@@ -130,6 +136,8 @@
     }
     .images .box{
         width: 300px;
+    }.images .box img{
+        max-width: 270px;
     }
     .images .box::after{
         width: 321px;
@@ -198,6 +206,9 @@
     }
     .images .box{
         width: 300px;
+    }
+    .images .box img{
+        max-width: 260px;
     }
     .images .box::after{
         width: 321px;
@@ -280,7 +291,7 @@
         display: none;
     }
     .images .box img{
-        right: 35px;
+        right: 0px;
     }
     #counterupSection .counterUp{
         margin-bottom: 20px;
