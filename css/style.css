@@ -268,7 +268,7 @@ html,body{
 .box img{
 	position: absolute;
 	bottom: 0;
-	right: 0px;
+	right: 7px;
 	max-width: 300px;
 	height: auto;
 }
