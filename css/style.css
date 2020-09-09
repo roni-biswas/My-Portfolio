@@ -404,6 +404,9 @@ td {
 }
 /* End counterup section */
 /* Start skills section */
+.about-col2.text-center {
+	margin-top: 70px;
+}
 #skillesSection{
 	padding: 95px 0;
 }
