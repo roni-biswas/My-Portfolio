@@ -28,6 +28,8 @@ $(document).ready(function () {
     $('#bar4').barfiller({ barColor: "#ff2511", duration: 2000 });
     $('#bar5').barfiller({ barColor: "#ff2511", duration: 2000 });
     $('#bar6').barfiller({ barColor: "#ff2511", duration: 2000 });
+    $('#bar7').barfiller({ barColor: "#ff2511", duration: 2000 });
+    $('#bar8').barfiller({ barColor: "#ff2511", duration: 2000 });
 });
 //for protfolio isotope
 $(window).on("load",function(){
