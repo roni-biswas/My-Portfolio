@@ -506,6 +506,7 @@ td {
 ul.filters{
 	margin: 0;
 	display: block;
+	padding-left: 0;
 }
 ul.filters li{
 	list-style: none;
