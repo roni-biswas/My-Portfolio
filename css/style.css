@@ -335,8 +335,8 @@ body {
 .box img {
     position: absolute;
     bottom: 0;
-    right: -20px;
-    max-width: 436px;
+    right: 10px;
+    max-width: 375px;
     height: auto;
 }
 
