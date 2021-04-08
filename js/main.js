@@ -1,8 +1,8 @@
 //for carousel speed
 $('.carousel').carousel({
-    interval: 5000
-})
-//for typing effect
+        interval: 5000
+    })
+    //for typing effect
 var typed6 = new Typed('.type', {
     strings: [
         "Web Designer",
@@ -19,20 +19,22 @@ $('html').smoothScroll(500);
 $('.counter').counterUp({
     delay: 10,
     time: 1000
-    });
+});
 //progress ber
-$(document).ready(function () {
-    $('#bar1').barfiller({ barColor: "#ff2511", duration: 2000 });
-    $('#bar2').barfiller({ barColor: "#ff2511", duration: 2000 });
-    $('#bar3').barfiller({ barColor: "#ff2511", duration: 2000 });
-    $('#bar4').barfiller({ barColor: "#ff2511", duration: 2000 });
-    $('#bar5').barfiller({ barColor: "#ff2511", duration: 2000 });
-    $('#bar6').barfiller({ barColor: "#ff2511", duration: 2000 });
-    $('#bar7').barfiller({ barColor: "#ff2511", duration: 2000 });
-    $('#bar8').barfiller({ barColor: "#ff2511", duration: 2000 });
+$(document).ready(function() {
+    $('#bar1').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar2').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar3').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar4').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar5').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar6').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar7').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar8').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar9').barfiller({ barColor: "#464545", duration: 2000 });
+    $('#bar10').barfiller({ barColor: "#464545", duration: 2000 });
 });
 //for protfolio isotope
-$(window).on("load",function(){
+$(window).on("load", function() {
     var $project = $(".projectSec");
 
     $project.isotope({
@@ -40,10 +42,10 @@ $(window).on("load",function(){
         "layoutMode": "fitRows",
     });
 
-    $("ul.filters li").on("click", function(e){
-        
+    $("ul.filters li").on("click", function(e) {
+
         var filter = $(this).attr("data-filter");
-        $project.isotope({filter: filter});
+        $project.isotope({ filter: filter });
 
         $("ul.filters li").removeClass("active");
         $(this).addClass("active")
@@ -51,13 +53,22 @@ $(window).on("load",function(){
         e.preventDefault();
     });
     //mouse hover
-    $(".project").mouseenter(function(){
-        $(this).find(".cardOverlay").css("top","0");
-        $(this).find("ul.cardLink").css("top","0");
-    }).mouseleave(function(){
-        $(this).find(".cardOverlay").css("top","-100%");
-        $(this).find("ul.cardLink").css("top","100%");
+    $(".project").mouseenter(function() {
+        $(this).find(".cardOverlay").css("top", "0");
+        $(this).find("ul.cardLink").css("top", "0");
+    }).mouseleave(function() {
+        $(this).find(".cardOverlay").css("top", "-100%");
+        $(this).find("ul.cardLink").css("top", "100%");
     });
+});
+
+//for preloader
+$(window).on('load', function() {
+
+    //preloader
+    $('#preloader').delay(350).fadeOut('slow');
+
+
 });
 
 //for protfolio Lightbox
@@ -72,37 +83,38 @@ let index;
 let imageSrc;
 
 //zoom btn click
-for(let i=0; i<projectItem.length; i++){
-    projectItem[i].querySelector(".zoomBtn").addEventListener("click", function(e){
-        index=i;
+for (let i = 0; i < projectItem.length; i++) {
+    projectItem[i].querySelector(".zoomBtn").addEventListener("click", function(e) {
+        index = i;
         lightBox();
         changeImg();
         e.preventDefault();
     })
 }
 //for zoom img
-function lightBox(){
+function lightBox() {
     lightBoxContainer.classList.toggle("open");
 }
 //for images change
-function changeImg(){
+function changeImg() {
     imageSrc = projectItem[index].querySelector("img").getAttribute("src");
-    lightBoxImg.src= imageSrc;
-    counter.innerHTML=(index+1)+" of "+projectItem.length;
+    lightBoxImg.src = imageSrc;
+    counter.innerHTML = (index + 1) + " of " + projectItem.length;
 }
 //for images change on click button
-function next(){
-    if(index==projectItem.length-1){
-        index=0;
-    }else{
+function next() {
+    if (index == projectItem.length - 1) {
+        index = 0;
+    } else {
         index++;
     }
     changeImg();
 };
-function prev(){
-    if(index==0){
-        index= projectItem.length-1;
-    }else{
+
+function prev() {
+    if (index == 0) {
+        index = projectItem.length - 1;
+    } else {
         index--;
     }
     changeImg();
@@ -110,8 +122,8 @@ function prev(){
 //now close lightbox when click to outside of:
 //prev or next
 //lightbox-img
-lightBoxContainer.addEventListener("click", function(e){
-    if(e.target!==lightBoxImg && e.target!==prevBtn && e.target!==nextBtn){
+lightBoxContainer.addEventListener("click", function(e) {
+    if (e.target !== lightBoxImg && e.target !== prevBtn && e.target !== nextBtn) {
         lightBox();
     }
 });
